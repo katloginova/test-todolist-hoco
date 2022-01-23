@@ -1,0 +1,7 @@
+.todolist-header {
+  text-transform: uppercase;
+  color: rgb(179, 245, 80);
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}

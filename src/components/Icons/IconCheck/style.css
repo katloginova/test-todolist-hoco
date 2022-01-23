@@ -1,0 +1,42 @@
+.icon-check {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 2px solid rgb(4, 114, 218);
+  transition: all 100ms;
+}
+
+.icon-check:hover {
+  cursor: pointer;
+  background-color: rgb(4, 114, 218);
+}
+
+.icon-check:hover::after {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 40%;
+  height: 40%;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: rotateZ(-45deg);
+}
+
+.done {
+  background-color: rgb(4, 114, 218);
+}
+
+.done::after {
+  content: '';
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 40%;
+  height: 40%;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  transform: rotateZ(-45deg);
+}

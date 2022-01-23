@@ -1,0 +1,19 @@
+.list-tasks {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.list-tasks .list-tasks__item {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #555;
+  background-color: rgb(37, 37, 37);
+  padding: 10px 15px;
+}
+
+.task .task__title {
+  flex-grow: 1;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+}

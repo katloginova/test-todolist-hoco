@@ -1,0 +1,20 @@
+.btn {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 2px solid rgb(177, 250, 67);
+  border-radius: 2px;
+  background-color: rgb(37, 37, 37);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: rgb(177, 250, 67);
+  color: #000;
+}
+
+.active {
+  background-color: rgb(177, 250, 67);
+  color: #000;
+}

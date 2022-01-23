@@ -1,0 +1,9 @@
+.icon-delete {
+  color: #fff;
+  transition: all 100ms;
+}
+
+.icon-delete:hover {
+  cursor: pointer;
+  color: rgb(4, 114, 218);
+}

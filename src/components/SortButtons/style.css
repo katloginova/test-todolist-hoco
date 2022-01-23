@@ -1,0 +1,14 @@
+.todolist-sort {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.todolist-sort .todolist-sort__btn {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.todolist-sort .todolist-sort__btn:first-child {
+  margin-left: 0;
+}
