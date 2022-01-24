@@ -1,15 +1,15 @@
 import './style.css';
 
 function InputDefault ( props ) {
-  const { nameClass, typeInput, valueInput, placeholder, changeInput } = props
+  const { nameClass, typeInput, valueInput, placeholder, onChangeInput } = props
 
   return (
     <input
-      className={ `input ${nameClass}` }
+      className={ `input ${ nameClass }` }
       type={ typeInput }
       value={ valueInput }
       placeholder={ placeholder }
-      onChange={ changeInput }
+      onChange={ onChangeInput }
     />
   )
 }

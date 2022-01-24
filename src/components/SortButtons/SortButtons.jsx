@@ -1,15 +1,18 @@
 import ButtonDefault from "../ButtonDefault/ButtonDefault";
 import './style.css';
 
-function SortButtons () {
-    const titleBtns = [ 'all','done','todo' ];
-    return (
+function SortButtons ( props ) {
+    const { titleBtns, onBtnClick } = props;
+
+    return ( titleBtns.length > 0 ) && (
         <div className="todolist-sort">
-            { titleBtns?.map( ( title,key ) =>
+            { titleBtns.map( ( title, key ) =>
                 <ButtonDefault
-                    key={key}
+                    key={ key }
                     nameClass={ 'todolist-sort__btn' }
-                    title={ title } />
+                    title={ title }
+                    onBtnClick={ onBtnClick }
+                />
             ) }
         </div>
     )
