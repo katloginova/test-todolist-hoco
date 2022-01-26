@@ -12,7 +12,6 @@
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
   "json.format.enable": false,
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "typescript.format.insertSpaceAfterConstructor": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
